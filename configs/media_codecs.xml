@@ -214,7 +214,7 @@ Only the three quirks included above are recognized at this point:
             <Limit name="block-size" value="16x16" />
             <Limit name="block-count" range="1-34560" /> <!-- max 4096x2160 -->
             <Limit name="blocks-per-second" min="1" max="1958400" />
-            <Limit name="bitrate" range="1-100000000" /
+            <Limit name="bitrate" range="1-100000000" />
             <Feature name="adaptive-playback" />
             <Limit name="concurrent-instances" max="16" />
             <Limit name="performance-point-4096x2160" value="56" />
